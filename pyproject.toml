@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "cmake", "nanobind"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wave_runtime"
+version = "0.1.0"
+authors = [
+  { name="Harsh Menon", email="menon.harsh@gmail.com" },
+]
+description = "Runtime for the wave language."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0 WITH LLVM-exception" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/harsh-nod/wave-runtime"
